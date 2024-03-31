@@ -27,7 +27,7 @@ body {
 
 .box {
     text-align: left;
-    margin-top: -90px;
+    margin-top: -20px;
 }
 
 .box h1{
@@ -40,4 +40,32 @@ body {
     margin-top: 20px;
 }
    
-
+.textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 200px;
+    height: 100px;
+    transition: all 0.2s;
+    margin-top: 20px;
+  }
+  
+  .textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+  
+  .textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+  
