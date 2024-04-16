@@ -1,97 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .one img {
-    width: 267px; /* Adjust as needed */
-    height: 353px; /* Maintain aspect ratio */
-    margin-right: 50px; /* Space between image and text */
-    margin-left: -35px;
+  width: 420px; /* Adjust as needed */
+  height: 500px; /* Maintain aspect ratio */
+  margin-right: 50px; /* Space between image and text */
+  margin-left: -35px;
 }
 
 .box {
-    text-align: left;
-    margin-top: -20px;
+  text-align: left;
+  margin-top: -20px;
 }
 
-.box h1{
-    font-size: 20px;
-    
+.box h1 {
+  font-size: 40px;
 }
 
-.box p{
-    font-size: 15px;
-    margin-top: 20px;
+.box p {
+  font-size: 15px;
+  margin-top: 20px;
 }
-   
+
 .textarea {
-    background-color: #dddddd;
-    color: #666666;
-    padding: 1em;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    outline: none;
-    font-family: "Heebo", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.4;
-    width: 200px;
-    height: 100px;
-    transition: all 0.2s;
-    margin-top: 20px;
-  }
-  
-  .textarea:hover {
-    cursor: pointer;
-    background-color: #eeeeee;
-  }
-  
-  .textarea:focus {
-    cursor: text;
-    color: #333333;
-    background-color: white;
-    border-color: #333333;
-  }
-
-  .box button {
-    width: 75px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    font-size: 12px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px; /* Adjusted margin-top */
-    margin-right: 30px;
-    margin-left: 50px;
-    position: relative; /* Added */
-    top: -20px; /* Adjusted top position */
+  background-color: #dddddd;
+  color: #666666;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 500px;
+  height: 250px;
+  transition: all 0.2s;
+  margin-top: 20px;
 }
 
+.textarea:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
 
+.textarea:focus {
+  cursor: text;
+  color: #333333;
+  background-color: white;
+  border-color: #333333;
+}
 
+.box button {
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px; /* Adjusted margin-top */
+  margin-right: 30px;
+  margin-left: 50px;
+  position: relative; /* Added */
+  top: -20px; /* Adjusted top position */
+}
 
 .box button:first-child {
-    margin-left: 100px; /* Increased margin to push the first button further right */
+  margin-left: 100px; /* Increased margin to push the first button further right */
 }
 
-.box button:hover{
-    border: 2px solid black;
-    background-color: transparent;
+.box button:hover {
+  border: 2px solid black;
+  background-color: transparent;
 }
